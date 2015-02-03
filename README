@@ -1,0 +1,15 @@
+Usage:
+
+First time usage require: devpkg -S to initialize database system
+    This is only required only one time.
+
+In order to install any package:
+do  devpkg -F <url containing the package to be installed>, this
+    will download the package into your /tmp/ directory
+
+next do devpkg -I or devpkg -I -m <m opts> -c <c opts> -i <i opts>
+
+If you want to build the pkg but not install it
+   devpkg -B or devpkg -B -m <> -c <> -i <>
+
+To list packages already installed: devpkg -L

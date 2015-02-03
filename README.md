@@ -1,1 +1,1 @@
-# depkg1
+# devpkg setuid program
